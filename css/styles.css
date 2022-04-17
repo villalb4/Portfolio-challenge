@@ -97,9 +97,14 @@ body {
   max-width: 1045px;
   width: 100%;
   display: flex;
+  justify-content: space-between;
   gap: 34.98px;
-  margin: 0 auto;
+  margin: 0 auto 42px auto;
   padding-top: 42px;
+}
+.mid-left {
+  display: flex;
+  flex-direction: column;
 }
 .frontend-card {
   height: 100%;
@@ -159,6 +164,12 @@ h2 {
 }
 
 
+
+.mid-right {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
 .blog {
   padding: 31px 0 32px 20px;
   border-radius: 12px;
@@ -208,7 +219,59 @@ h2 {
   cursor: pointer;
 }
 
+.expeciences {
+  border-radius: 12px;
+  padding: 17px 31.23px 33px 31.23px;
+  background-color: var(--white);
+}
+.h3-experiences {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.26px;
+  color: var(--other-text);
+  margin-bottom: 44px;
+}
+.exp {
+  display: flex;
+  gap: 22.71px;
+}
+.xp-two {
+  margin-top: 36px;
+}
+.exp-img {
+  height: 84px;
+  width: 119.25px;
+}
 
+.date {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+  color: var(--secundary-text);
+}
+.job {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.5px;
+  color: var(--other-text);
+  margin: 12px 0 33px;
+}
+.job-desc {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  max-width: 387.57px;
+  color: var(--secundary-text);
+}
+
+
+
+.bot {
+  max-width: 1045px;
+  width: 100%;
+
+  margin: 0 auto;
+}
 
 
 @media screen and (max-width: 996px) {

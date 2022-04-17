@@ -104,6 +104,7 @@ body {
 }
 .mid-left {
   display: flex;
+  gap: 42px;
   flex-direction: column;
 }
 .frontend-card {
@@ -266,11 +267,85 @@ h2 {
 
 
 
+.hobbies {
+  display: flex;
+  flex-direction: column;
+  padding: 22px 23px 36px 22px;
+  background-color: var(--white);
+  border-radius: 12px;
+}
+.h3-hobbies {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.26px;
+  color: var(--principal-text);
+  margin-bottom: 26px;
+}
+.hobbie {
+  display: flex;
+  flex-direction: column;
+}
+.h-m {
+  margin: 36px 0;
+}
+.hob-img {
+  max-height: 139px;
+  height: 100%;
+  max-width: 370px;
+  width: 100% ;
+  border-radius: 12px;
+}
+.hob-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+  color: var(--other-text);
+  margin: 26px 0 10px;
+}
+.hob-description {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.5px;
+  color: var(--secundary-text);
+}
+
+
+
 .bot {
   max-width: 1045px;
   width: 100%;
-
   margin: 0 auto;
+}
+.projects {
+  padding: 22px;
+  border-radius: 12px;
+  background-color: var(--white);
+}
+.h3-projects {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.94px;
+  color: var(--principal-text);
+  margin-bottom: 24px;
+}
+.tech-section {
+  display: flex;
+  gap: 16px;
+}
+.whit {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.07px;
+  padding: 8px 22px;
+  border: 1px solid var(--principal-text);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.whit:hover , 
+.whit:focus{
+  color: var(--white);
+  border-color: var(--blue);
+  background-color: var(--blue);
 }
 
 

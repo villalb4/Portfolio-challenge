@@ -324,7 +324,7 @@ h2 {
 .bot {
   max-width: 1045px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0 auto 147px;
 }
 .projects {
   padding: 22px;
@@ -364,6 +364,7 @@ h2 {
 .card-projects {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 36px;
 }
 .card {
   border-radius: 12px;
@@ -415,7 +416,28 @@ h2 {
   color: var(--blue);
 }
 
-
+.page-div {
+  display: flex;
+  gap: 12px;
+  justify-content: end;
+}
+.page {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.06px;
+  color: var(--principal-text);
+  padding: 10px 14px 10px 13px;
+  border: 1px solid var(--principal-text);
+  border-radius: 4px;
+}
+.page:hover {
+  color: var(--white);
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
+}
+.page-ten {
+  padding: 10px;
+}
 
 .created {
   text-align: center;

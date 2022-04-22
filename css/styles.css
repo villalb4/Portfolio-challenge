@@ -597,12 +597,12 @@ h2 {
     margin-bottom: 22px;
   }
   .h-m {
-    margin: 32px 0;
+    margin: 25px 0;
   }
   .hob-title {
     font-size: 14px;
     line-height: normal;
-    margin: 22px 0 10px;
+    margin: 15px 0 8.6px;
   }
   .hob-description {
     font-size: 12px;
@@ -649,48 +649,35 @@ h2 {
   }
   
   .expeciences {
-    border-radius: 12px;
-    padding: 17px 31.23px 38px 31.23px;
-    background-color: var(--white);
+    padding: 20px;
   }
   .h3-experiences {
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 29.26px;
-    color: var(--other-text);
-    margin-bottom: 44px;
+    font-size: 20px;
+    line-height: normal;
+    margin-bottom: 30px;
   }
   .exp {
     display: flex;
-    gap: 22.71px;
+    gap: 20px;
   }
   .xp-two {
-    margin-top: 55.5px;
+    margin-top: 25px;
   }
   .exp-img {
-    height: 84px;
-    width: 119.25px;
+    height: auto;
+    width: 85px;
   }
   
   .date {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 17.07px;
-    color: var(--secundary-text);
+    font-size: 12px;
+    line-height: normal;
   }
   .job {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 19.5px;
-    color: var(--other-text);
-    margin: 12px 0 33px;
+    font-size: 12px;
+    margin: 5px 0 15px;
   }
   .job-desc {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19.5px;
-    max-width: 387.57px;
-    color: var(--secundary-text);
+    font-size: 12px;
   }
   
 
@@ -700,7 +687,80 @@ h2 {
 
 
   /* bot */
+
+  .bot {
+    max-width: 660px;
+    width: 100%;
+    margin: 0 auto 100px;
+  }
+  .projects {
+    padding: 20px;
+  }
+  .h3-projects {
+    font-size: 14px;
+    line-height: normal;
+    margin-bottom: 18px;
+  }
+  .tech-section {
+    gap: 12px;
+  }
+  .whit {
+    font-size: 10px;
+    padding: 5px 15px;
+    border-radius: 7px;
+  }
+
   .card-projects {
+    display: flex;
+    justify-content: space-between;
     margin: 20px 0;
+  }
+  .card {
+    border-radius: 12px;
+    padding: 18px 18.49px 33px;
+  }
+  .img-project {
+    max-width: 150px;
+    width: 100%;
+    border-radius: 12px;
+  }
+  .tags {
+    display: flex;
+    gap: 5px;
+    margin: 5px 0 5px 0;
+  }
+  .tag {
+    font-size: 9px;
+  }
+  .card-text {
+    font-size: 10px;
+    max-width: 150px;
+    margin: 15px 0 30px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-button {
+    font-size: 10px;
+    padding: 5px 15px;
+    border-radius: 12px;
+  }
+
+  .page-div {
+    display: flex;
+    gap: 12px;
+    justify-content: end;
+  }
+  .page {
+    font-size: 10px;
+    padding: 10px;
+    border: 1px solid var(--principal-text);
+    border-radius: 4px;
+  }
+  .page:hover {
+    color: var(--white);
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
   }
 }

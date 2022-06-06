@@ -26,9 +26,8 @@
 
 ## Overview
 
-![screenshot](./cover.png)
-
 - Hecho con html y css unicamente para practicar el responsive.
+![screenshot](./cover.png)
 
 ## Features
 
